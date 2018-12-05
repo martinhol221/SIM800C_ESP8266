@@ -9,7 +9,7 @@ MQTT broker
 
 MQTT apps on Android
 
-2.1 [MQTT Dash Google Play] (https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru) recommend
+2.1 [MQTT Dash Google Play](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru) recommend
 
 2.2 [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod)
 
