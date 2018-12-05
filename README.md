@@ -38,13 +38,9 @@ Mqtt dash > Seting - Insert server settings: Server, User, Password and Port
 
 Mqtt dash > Импорт/экспорт метрик: > ПОДПИСАТЬСЯ и ЖДАТЬ МЕТРИКИ.
 
-![](https://github.com/martinhol221/SIM800L_MQTT/blob/master/other/daschbord_7.0.jpg)
-
 *****
 
-Cloudmqtt.com > Log in> WEBSOCKET UI
-
-Websocket -Send message 
+Cloudmqtt.com > Log in> WEBSOCKET UI > Websocket -Send message 
 
 **Topic** metrics/exchange
 
