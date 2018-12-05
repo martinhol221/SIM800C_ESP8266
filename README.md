@@ -3,7 +3,7 @@ Anatomy of autorun 7.0
 
 1. https://www.cloudmqtt.com/ 
 
-2. ![MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru)
+2. [MQTT Dash](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru)
 
 ***
 Mqtt dash > Импорт/экспорт метрик: > подписаться и ждать метрики.
