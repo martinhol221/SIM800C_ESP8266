@@ -40,6 +40,8 @@ Mqtt dash > Импорт/экспорт метрик: > ПОДПИСАТЬСЯ �
 
 *****
 
+***Daschbord*** 
+
 Cloudmqtt.com > Log in> WEBSOCKET UI > Websocket -Send message 
 
 **Topic** metrics/exchange
