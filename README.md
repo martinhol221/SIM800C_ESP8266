@@ -56,8 +56,27 @@ Cloudmqtt.com > Log in> WEBSOCKET UI > Websocket -Send message
 **Message** >  https://raw.githubusercontent.com/martinhol221/SIIM800C_ESP8266/master/daschbord.txt
 
 *****
-Smartphone subscribed to topic **car/c5/pub**, data comes in a format JSON: 
+
+request **where?** to **topic car/c5/sub**	 returns  **car/c5/pub/gps**	52.834681,21.694131
+
+request **money?** to **topic car/c5/sub**	 returns  **car/c5/pub/ussd** 2.87rub
+
+request **signal?** to **topic car/c5/sub**	  returns **car/c5/pub/rssi**	29
+
+request **wifion** to **topic car/c5/sub**	  Wi FI is turned on with the **Webasto_123456** access point
+
+request **25** to **topic car/c5/sub/webasto**	  turns on relay K1 for 25 minutes
+
+request **estart** to **topic car/c5/sub**	      includes relays K1, K2 and briefly K3
+
+request **estop** to **topic car/c5/sub**	      disable all relays
+
+request **ref** to **topic car/c5/sub**	      returns the data comes from the device to the phone in JSON format:
 
 **{"pin":[11.73,0,0,0,0,0,0,0],"temp":[14.81,14.50,14.13],"time":[0,2day.18:28:24],"loss":[0,0,0]}**
 
 {"pin":[Voltage, state K1, state K2, state K3, state K4, state K5, state IN1, state IN2],"temp":[temperature0, temperature1, temperature2],"time":[timer,Uptime],"loss":[0,0,error]}
+
+
+
+
