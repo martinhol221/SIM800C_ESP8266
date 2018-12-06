@@ -1,6 +1,10 @@
 # Анатомия автозапуска 7.0
 Anatomy of autorun 7.0
 
+[Video with registration on the server and loading dashboard](https://www.youtube.com/watch?v=xgZZ417HFFQ)
+
+****
+
 MQTT broker
 https://www.cloudmqtt.com
 
