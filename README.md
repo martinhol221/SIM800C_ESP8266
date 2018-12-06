@@ -34,7 +34,7 @@ Cloudmqtt.com > Log in> + Create Nwe Intance >
 
 **Data center:** EU-West-1 (Ireland) > Confirm > Create Nwe Intance
 
-Details - Instance info - Copy: Server, User, Password and Port
+Details - Instance info - Copy: **Server, User, Password** and **Port**
 
 ********
 
