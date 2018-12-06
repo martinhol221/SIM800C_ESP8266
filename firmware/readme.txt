@@ -1,2 +1,5 @@
 SSID: Webasto_XXXXXXX (10 min.)
 PASS: martinhol221
+
+ESP-12E OR ESP-12F
+ADDR: 0x00000
