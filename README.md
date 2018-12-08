@@ -2,7 +2,7 @@
 Anatomy of autorun 7.0
 
 [Video with registration on the server and loading dashboard](https://www.youtube.com/watch?v=xgZZ417HFFQ)
-
+[Video Firmware update, initial setup](https://youtu.be/Pbuku_SYxHc)
 ****
 
 MQTT broker
