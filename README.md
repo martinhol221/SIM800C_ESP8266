@@ -56,7 +56,7 @@ Cloudmqtt.com > Log in> WEBSOCKET UI > Websocket -Send message
 
 **Topic** metrics/exchange
 
-**Message** >  https://raw.githubusercontent.com/martinhol221/SIIM800C_ESP8266/master/daschbord.txt
+**Message** >  https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord.txt
 
 *****
 
