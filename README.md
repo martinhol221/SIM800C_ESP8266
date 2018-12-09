@@ -1,7 +1,7 @@
 # Анатомия автозапуска 7.0
 Anatomy of autorun 7.0
 
-[Video with registration on the server and loading dashboard](https://www.youtube.com/watch?v=xgZZ417HFFQ)
+[Video with registration on the server and loading dashboard](https://youtu.be/zThLl6C_PjE)
 
 [Video Firmware update, initial setup](https://youtu.be/mA9y3CBXqBY)
 
