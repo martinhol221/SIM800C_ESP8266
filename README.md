@@ -74,15 +74,17 @@ request **wifion** to **topic car/c5/sub**	  Wi FI is turned on with the **Webas
 
 request **25** to **topic car/c5/sub/webasto**	  turns on relay K1 for 25 minutes
 
-request **estart** to **topic car/c5/sub**	      includes relays K1, K2 and briefly K3
+request **estart** to **topic car/c5/sub**	      turns on relays K1, K2 and briefly K3
 
-request **estop** to **topic car/c5/sub**	      disable all relays
+request **relay4on** to **topic car/c5/sub**	    turns on relay K4 for 10 minutes
+
+request **estop** to **topic car/c5/sub**	         disable all relays
 
 request **ref** to **topic car/c5/sub**	      returns the data comes from the device to the phone in JSON format:
 
 **{"pin":[11.73,0,0,0,0,0,0,0],"temp":[14.81,14.50,14.13],"time":[0,2day.18:28:24],"loss":[0,0,0]}**
 
-{"pin":[Voltage, state K1, state K2, state K3, state K4, state K5, state IN1, state IN2],"temp":[temperature0, temperature1, temperature2],"time":[timer,Uptime],"loss":[0,0,error]}
+{"pin":[Voltage, state K1, state K2, state K4, state K5, state IN1, state IN2],"temp":[temperature0, temperature1, temperature2],"time":[timer,Uptime],"loss":[0,0,error]}
 
 
 
