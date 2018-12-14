@@ -62,7 +62,7 @@ Cloudmqtt.com > Log in> + Create Nwe Intance >
 
 1. отправить [этот конфиг](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord.txt) в тпик `metrics/exchange`, предварительно подписав на него MQTT Dasch
 
-2. Натроить приложение вручную, смартфон подписывается на топики `car/c5/pub`, `car/c5/pub/gps`, `car/c5/pub/ussd` и `car/c5/pub/rssi` и пибликует команды в топики `car/c5/sub` и  `car/c5/sub/webasto` на которые подписано устройство.
+2. Натроить приложение вручную, смартфон подписывается на топики `car/c5/pub`, `car/c5/pub/gps`, `car/c5/pub/ussd` и `car/c5/pub/rssi` и пибликует команды в топики `car/c5/sub` и  `car/c5/sub/webasto` на которые подписано устройство, где `car/c5/sub` и `car/c5/sub` имена топиков, которые можно задать другими изменяя их в утройстве, например: `vesta/publication`, `vesta/subscription`
 
 *******
 
