@@ -54,7 +54,7 @@ Cloudmqtt.com > Log in> + Create Nwe Intance >
 
 ************************************
 
-## Готовая приборная панель программы MQTT Dasch, интерфейс (далее daschbord)
+## Готовая приборная панель программы MQTT Dasch (далее daschbord)
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/raw/master/dashbord/MQTT_Dash.jpg)
 
@@ -62,7 +62,7 @@ Cloudmqtt.com > Log in> + Create Nwe Intance >
 
 1. отправить [этот конфиг](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord.txt) в тпик `metrics/exchange`, предварительно подписав на него MQTT Dasch
 
-2. Натроить приложение вручную по принципу, устройство подписано на топики `car/c5/sub` и  `car/c5/sub/webasto`, смартфон на	`car/c5/pub`, `car/c5/pub/gps`, `car/c5/pub/ussd` и `car/c5/pub/rssi`.
+2. Натроить приложение вручную, смартфон подписывается на топики `car/c5/pub`, `car/c5/pub/gps`, `car/c5/pub/ussd` и `car/c5/pub/rssi` и пибликует команды в топики `car/c5/sub` и  `car/c5/sub/webasto` на которые подписано устройство.
 
 *******
 
@@ -78,7 +78,7 @@ Cloudmqtt.com > Log in> + Create Nwe Intance >
 
 запрос  `25`  в топик `car/c5/sub/webasto`	  включает реле K1  на 25 минут
 
-запрос  `estart`в топик `car/c5/sub`	      включает реле K4,K1,K2, вкл/выкл K3, таймр на 30 мин.
+запрос  `estart`в топик `car/c5/sub`	      включает реле K4,K1,K2, вкл/выкл K3, таймер на 30 мин.
 
 запрос  `relay4on` в топик `car/c5/sub`	    включает реле K4  на 10 минут
 
