@@ -1,4 +1,4 @@
-Прошивка 7.2 начала принимать входящие команды в формате **JSON** и предусматривает работу модема на скорости **57600**, предыдущая работала на скорости 9600;
+   Прошивка 7.2 начала принимать входящие команды в формате **JSON** и предусматривает работу модема на скорости **57600**, предыдущая работала на скорости 9600;
 
 Перед обновлением любой версии старше 31.12.2018 до 7.2 необходимо находясь с старой прошивке, в консоли модема отправить команду `AT+IPR=57600;&W`. Если мониторе порта после отправки команды появятся артефакты,что свидетельствует о смене скорости модемом, затем можно обновляться через *.bin файл. Не лишним будет сделать полный сброс настроек `http://192.168.4.1/hardreset`
 
@@ -144,7 +144,7 @@
 * `55` Включить реле К5 в случае, если на IN1 или IN2 низкий логический уровень
 
 ******
-## Пример для плат 7.1 и выше
+## Пример для формирования своего сценария управления реле
 
 `{"timer":600,"run":[52,5,22,7,12,6,36,6,4,30,7,50,5,10,5],"det":30,"cmd":7}`
 
@@ -168,11 +168,61 @@
 
 Стоп: `{"timer":0,"run":[50,4,40,4,30,4,20,4,10,4],"cmd":7}`
 
+****
 
-***
-[Актуальный дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_7.2.txt)
+## Выбор MQTT приложения в телефон для управления по GPRS
 
-Стоп: `{"timer":0,"run":[50,4,40,4,30,4,20,4,10,4],"cmd":7}`
+Для Android
+
+* [MQTT Dash Google Play](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru) recommend
+* [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod)
+* [IoT MQTT Dashboard](https://play.google.com/store/apps/details?id=com.thn.iotmqttdashboard)
+* [Linear MQTT Dashboard](https://play.google.com/store/apps/details?id=com.ravendmaster.linearmqttdashboard)
+
+Для IOS: 
+[IoT OnOff](https://itunes.apple.com/be/app/iot-onoff/id1267226555?mt=8) 
+
+## Выбор MQTT брокера (далее сервера)
+
+***********************************
+
+MQTT broker
+
+https://www.cloudmqtt.com
+
+http://flyhub.org
+
+**********************************
+
+## Настройка приложений сводится к трем этамам:
+
+### Регистрация на сервере
+
+Cloudmqtt.com > Log in> + Create Nwe Intance > 
+
+`Name`: Любое имя
+
+`Plan`: Cute Cat(Free)
+
+`Tags`: Любое имя
+
+`Data center`: EU-West-1 (Ireland) > Confirm > Create Nwe Intance
+
+Внесение настроек сервера `Server`,`User`,`Password`,`Port` приложение
+
+Конфигурация интерфейса приложения (кнопочек, ползунков, индикаторов и др.)
+
+[Видео по регистрации на youtube.com](https://www.youtube.com/watch?v=xgZZ417HFFQ)
+
+************************************
+
+## Готовая приборная панель программы MQTT Dasch (далее daschbord)
+
+![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/daschbord1.jpg)
+
+### Дашборд можно настроить двумя способами:
+
+1. отправить [Актуальный дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/dashbord/dashbord_7.2.txt) в топик `metrics/exchange`, предварительно подписав на него MQTT Dasch
 
 **********
 ## Настройки плиток в MQTT Dash в ручном режиме
