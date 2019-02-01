@@ -4,7 +4,7 @@
 
 [Скачать 7.2 тест](https://github.com/martinhol221/SIM800C_ESP8266/tree/master/firmware) управление JSON строкой, новый [полный дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_full.txt) или [легкая версия дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_lite.txt) обязательно перезалить
 
-![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/daschbord0.jpg)
+![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/Daschbord.jpg)
 
 ***
 
