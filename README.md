@@ -6,7 +6,6 @@
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/Daschbord.jpg)
 
-***
 
 ## Архитектура обмена командами:
 
