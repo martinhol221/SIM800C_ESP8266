@@ -2,7 +2,9 @@
 
 Перед обновлением любой версии старше 31.12.2018 до 7.2 необходимо находясь с старой прошивке, в консоли модема отправить команду `AT+IPR=57600;&W`. Если мониторе порта после отправки команды появятся артефакты,что свидетельствует о смене скорости модемом, затем можно обновляться через *.bin файл. Не лишним будет сделать полный сброс настроек `http://192.168.4.1/hardreset`
 
-[Скачать 7.2 тест](https://github.com/martinhol221/SIM800C_ESP8266/tree/master/firmware) управление JSON строкой, новый [полный дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_full.txt) или [легкая версия дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_lite.txt) обязательно перезалить
+* [Скачать актуальную версию прошивки 7.2 ](https://github.com/martinhol221/SIM800C_ESP8266/tree/master/firmware) управление JSON
+* [FULL - версия дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_full.txt)
+* [LITE - версия дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_lite.txt) обязательно перезалить
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/Daschbord.jpg)
 
