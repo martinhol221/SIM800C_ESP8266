@@ -5,6 +5,8 @@
 * [Скачать актуальную версию прошивки 7.2 ](https://github.com/martinhol221/SIM800C_ESP8266/tree/master/firmware) управление JSON, обязательно перезалить дашборд
 * [FULL - версия дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_full.txt) максимум информации
 * [LITE  - версия дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_lite.txt) минимум кнопок
+* [WEBASTO  - версия дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/daschbord_lite.txt) 
+управление реле К1
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/Daschbord.jpg)
 
