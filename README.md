@@ -275,9 +275,6 @@ Cloudmqtt.com > Log in> + Create Nwe Intance >
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/daschbord1.jpg)
 
-### Дашборд можно настроить двумя способами:
-
-1. отправить [Актуальный дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/dashbord/dashbord_lite.txt) в топик `metrics/exchange`, предварительно подписав на него MQTT Dasch
 
 **********
 ## Настройки плиток в MQTT Dash в ручном режиме
