@@ -253,23 +253,55 @@ http://flyhub.org
 
 **********************************
 
-## Настройка приложений сводится к трем этамам:
+**Главное окно программы MQTT Dash** 
+![](https://github.com/martinhol221/SIM800L_MQTT/raw/master/other/17.jpg)
 
-### Регистрация на сервере
 
-Cloudmqtt.com > Log in> + Create Nwe Intance > 
+### Регистрация на https://www.cloudmqtt.com/
 
-`Name`: Любое имя
+* зарегистрируйтесь и залогинтесь
 
-`Plan`: Cute Cat(Free)
+* нажмите  **+Create New Instanct**
 
-`Tags`: Любое имя
+* Name **любое значение**
 
-`Data center`: EU-West-1 (Ireland) > Confirm > Create Nwe Intance
+* Plan  **Cute Cat (Free)**
 
-Внесение настроек сервера `Server`,`User`,`Password`,`Port` приложение
+* Data center **EU-West-1 (Ireland)**
 
-Конфигурация интерфейса приложения (кнопочек, ползунков, индикаторов и др.)
+* Tags **любое значение**
+
+* Нажать по **Create New Instance**
+
+* Перейти в созданный профиль
+
+Server
+
+User
+
+Password
+
+Port
+
+перенести значение этих параметров в  MQTT Dash, [Скачать](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru), можно использовать любой другой MQTT клиент
+
+**Настройка приложения к серверу**
+
+![](https://github.com/martinhol221/SIM800L_MQTT/raw/master/other/mqtt-9.jpg)
+
+**Загрузка настроек интерфейса**
+
+Открыть в приложении ***Импорт/экспорт*** (1)
+
+Нажать ***Подписаться и ждать метрики*** (2) 
+
+![](https://github.com/martinhol221/SIM800L_MQTT/blob/master/other/setupMqtt.JPG)
+
+В вебсокете https://api.cloudmqtt.com/console/________/websocket  заполнить  и отправить настройки в телефон
+
+![](https://github.com/martinhol221/SIM800L_MQTT/blob/master/other/setupMqtt2.JPG)
+
+***Topic***  metrics/exchange
 
 [Видео по регистрации на youtube.com](https://www.youtube.com/watch?v=xgZZ417HFFQ)
 
