@@ -232,7 +232,7 @@
 
 Сценарии задаются через WEB- интерфейс
 
-![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/scenariy.jpg)
+![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/dashbord/scenariy2.jpg)
 
 
 ****
