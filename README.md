@@ -168,7 +168,7 @@
 * [Linear MQTT Dashboard](https://play.google.com/store/apps/details?id=com.ravendmaster.linearmqttdashboard)
 
 Для IOS: 
-[IoT OnOff](https://itunes.apple.com/be/app/iot-onoff/id1267226555?mt=8) не обробовано
+[IoT OnOff](https://itunes.apple.com/be/app/iot-onoff/id1267226555?mt=8) не на всех версиях ОС, может не коннекстится с брокером
 
 ## Выбор MQTT брокера (далее сервера)
 
