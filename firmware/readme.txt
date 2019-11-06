@@ -4,6 +4,8 @@ PASS: martinhol221
 ESP-12E OR ESP-12F
 ADDR: 0x00000
 
+ADC > 0.5V
+
 На устройствах на плате 7.0 распиновка реле:
 1-Wire - GPIO0
 KEY- GPIO2
