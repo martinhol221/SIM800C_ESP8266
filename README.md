@@ -1,13 +1,10 @@
-   Прошивка 7.3 за сентябрь 2019
-
-
-* [Скачать актуальную версию прошивки 7.3 ](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/7.3(2019.09.30).bin) обязательно перезалить дашборд
+* [Скачать актуальную версию прошивки 7.3 ](https://github.com/martinhol221/SIM800C_ESP8266/tree/master/firmware) обязательно перезалить дашборд
 После перепрошивки зайти в меню прошивки и сделать сброс настроек.
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/old/CkAAAgLhoeA-960.jpg)
 
 
-* [Дашборд для MQTT Dasch](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/Daschbord.json) панель приборов приложения
+* [Дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/Daschbord.json) панель приборов приложения
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/old/G0AAAgLhoeA-1920.jpg)
 
