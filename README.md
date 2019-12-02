@@ -178,7 +178,7 @@ Port
 
 В вебсокете https://api.cloudmqtt.com/console/________/websocket  заполнить  и отправить настройки в телефон
 
-![](https://github.com/martinhol221/SIM800L_MQTT/blob/master/other/UzAAAgCyMeA-960.jpg)
+![](https://github.com/martinhol221/SIM800C_ESP8266/raw/master/old/UzAAAgCyMeA-960.jpg)
 
 ***Topic***  metrics/exchange
 
