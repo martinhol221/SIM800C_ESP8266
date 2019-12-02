@@ -122,7 +122,7 @@
 
 ## Выбор MQTT брокера (далее сервера)
 
-***********************************
+**********************************
 
 MQTT broker
 
@@ -178,7 +178,7 @@ Port
 
 В вебсокете https://api.cloudmqtt.com/console/________/websocket  заполнить  и отправить настройки в телефон
 
-![](https://github.com/martinhol221/SIM800L_MQTT/blob/master/other/UzAAAgCyMeA-960.JPG)
+![](https://github.com/martinhol221/SIM800L_MQTT/blob/master/other/UzAAAgCyMeA-960.jpg)
 
 ***Topic***  metrics/exchange
 
