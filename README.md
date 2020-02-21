@@ -129,6 +129,10 @@ MQTT broker
 
 https://www.cloudmqtt.com
 
+https://mqtt.4api.ru
+
+https://myqtthub.com
+
 http://flyhub.org
 
 **********************************
