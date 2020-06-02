@@ -108,10 +108,18 @@
 где `1234`     - пинкод для управления   
 
 ****
+## управление GET-запросом
+http://192.168.4.1/sensor?name1=TEMP4&val1=-12.24   // Передача на narodmon.ru значения датчика -12.24 с именем TEMP4  
+http://192.168.4.1/set?PROG=0                       // Выполнить программу 0 - (СТОП)
+http://192.168.4.1/set?PROG=6                       // Выполнить программу 6 
+http://192.168.4.1/set?AT_CMD=ATD%2B37512345678%3B // Звоним на нужный номер +37512345678  
+http://192.168.4.1/set?AT_CMD=ATH0                  // Завершаем вызов
+
 
 ## Выбор MQTT приложения в телефон для управления по GPRS
 
 Для Android
+* {Car MQTT Control (специально написанное)](https://github.com/martinhol221/SIM800C_ESP8266?files=1)
 
 * [MQTT Dash Google Play](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru) рекомендую
 * [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod)
