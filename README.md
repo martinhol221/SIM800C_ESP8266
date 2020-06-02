@@ -119,6 +119,8 @@ http://192.168.4.1/set?AT_CMD=ATD%2B37512345678%3B // Звоним на нужн
 
 http://192.168.4.1/set?AT_CMD=ATH0                  // Завершаем вызов
 
+http://192.168.4.1/sms?sms_phone=%2B3751234567&sms_text=Trevoga.Datchik1 // отправка sms 
+
 
 ## Выбор MQTT приложения в телефон для управления по GPRS
 
