@@ -3,10 +3,10 @@
 
 ![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/old/CkAAAgLhoeA-960.jpg)
 
+Приложение CarMQTT Control
 
-* [Дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/Daschbord.json) панель приборов приложения
+* ![](https://github.com/martinhol221/SIM800C_ESP8266/raw/master/old/AwAAAgH1A-A-960.jpg)
 
-![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/old/G0AAAgLhoeA-1920.jpg)
 
 ## Коротко о протоколе MQTT в конкретной прошивке 
 
@@ -110,9 +110,13 @@
 ****
 ## управление GET-запросом
 http://192.168.4.1/sensor?name1=TEMP4&val1=-12.24   // Передача на narodmon.ru значения датчика -12.24 с именем TEMP4  
+
 http://192.168.4.1/set?PROG=0                       // Выполнить программу 0 - (СТОП)
+
 http://192.168.4.1/set?PROG=6                       // Выполнить программу 6 
+
 http://192.168.4.1/set?AT_CMD=ATD%2B37512345678%3B // Звоним на нужный номер +37512345678  
+
 http://192.168.4.1/set?AT_CMD=ATH0                  // Завершаем вызов
 
 
@@ -148,34 +152,7 @@ http://flyhub.org
 **Главное окно программы MQTT Dash** 
 ![](https://github.com/martinhol221/SIM800L_MQTT/raw/master/other/17.jpg)
 
-
-### Регистрация на https://www.cloudmqtt.com/
-
-* зарегистрируйтесь и залогинтесь
-
-* нажмите  **+Create New Instanct**
-
-* Name **любое значение**
-
-* Plan  **Cute Cat (Free)**
-
-* Data center **EU-West-1 (Ireland)**
-
-* Tags **любое значение**
-
-* Нажать по **Create New Instance**
-
-* Перейти в созданный профиль
-
-Server
-
-User
-
-Password
-
-Port
-
-перенести значение этих параметров в  MQTT Dash, [Скачать](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru), можно использовать любой другой MQTT клиент
+* [Дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/Daschbord.json) альтернативная
 
 **Настройка приложения к серверу**
 
