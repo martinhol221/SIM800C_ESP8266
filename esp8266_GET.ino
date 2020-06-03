@@ -24,7 +24,7 @@ WiFi.mode(WIFI_STA); WiFi.begin(ssid, pass);
 
 
 while (WiFi.status() != WL_CONNECTED) {count++, delay(500),  Serial.print("#");
-                                       if (count > 40) Serial.println("DeepSleep 10 min"), delay(1000), ESP.deepSleep(10*60*1000000);}
+       if (count > 40) Serial.println("DeepSleep 10 min"), delay(1000), ESP.deepSleep(sleep*1000000);}
 Serial.print(" - > IP:"), Serial.println(WiFi.localIP());
 
 if (pin4 != 0) ds18b20_get();
