@@ -1,14 +1,14 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
+#include <DallasTemperature.h> 
 WiFiClient client;
 ADC_MODE(ADC_VCC);
-#include <DallasTemperature.h> 
 #define ONE_WIRE_BUS 0             // GPIO2 (ESP8266) > DATA (DS18B20)
 #define PIN_POWER_DS 5             // GPIO5 (ESP8266) > VCC  (DS18B20)
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 int count, inDS = 5;               // Количество датчиков на шине
-int sleep = 300;                   // Время сна
+int sleep = 300;                   // Время сна секндах
 const char *ssid = "Gateway";      // SSID шлюза (платы анатомия автозапуска 7.3)
 const char *pass = "martinhol221"; // Пароль шлюза 
 String host = "192.168.4.1";
@@ -28,7 +28,7 @@ while (WiFi.status() != WL_CONNECTED) {count++, delay(500),  Serial.print("#");
 Serial.print(" - > IP:"), Serial.println(WiFi.localIP());
 
 if (pin4 != 0) ds18b20_get();
-//SMS_get("375291234567", "Privet.%20Srabotal%20datchik!"); // отправка SMS на номер без "+37520XXXXXX" , "сообщение на латинице c заменой пробела на %20" )
+//SMS_get("375291234567", "Privet.%20Srabotal%20datchik!"); // отправка SMS на латинице c заменой пробела на %20
 //Call_get("375291234567");                                 // звонок на номер
 if (pin4 == 0) program_get(6);                              // запуск программы №
 
