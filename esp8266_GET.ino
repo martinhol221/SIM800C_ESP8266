@@ -27,6 +27,7 @@ while (WiFi.status() != WL_CONNECTED) {count++, delay(500),  Serial.print("#");
                                        if (count > 40) Serial.println("DeepSleep 10 min"), delay(1000), ESP.deepSleep(10*60*1000000);}
 Serial.print(" - > IP:"), Serial.println(WiFi.localIP());
 
+//if (pin4 != 0) get_reqest("GET /sensor?name1=RSSI&val1="+String(WiFi.RSSI())+"&name2=ADC&val2="+String(ESP.getVcc()));
 if (pin4 != 0) ds18b20_get();
 //SMS_get("375291234567", "Privet.%20Srabotal%20datchik!"); // отправка SMS на номер без "+37520XXXXXX" , "сообщение на латинице c заменой пробела на %20" )
 //Call_get("375291234567");                                 // звонок на номер
