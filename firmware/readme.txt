@@ -4,24 +4,16 @@ PASS: martinhol221
 ESP-12E OR ESP-12F
 ADDR: 0x00000
 
-ADC > 0.5V
+ESP-8266    --> SIM800C (SIM800L) 
+TXD (GPIO1) --> RXD
+RXD (GPIO3) --> TXD
 
-На устройствах на плате 7.0 распиновка реле:
-1-Wire - GPIO0
-KEY- GPIO2
-IN1- GPIO13  
-IN2- GPIO12  
-K1 - GPIO14  
-K2 - GPIO16  
-K3 - GPIO5  
-K4 - GPIO4  
-K5 - GPIO15  
-
-На устройствах на плате 7.1 и выше распиновка реле:
-1-Wire - GPIO0
+1-Wire (DS18B20, DS2413) - GPIO0 
 KEY- GPIO2
 IN1- GPIO13  
 IN2- GPIO12 
+
+распиновка реле:
 K1-  GPIO14  
 K2-  GPIO5  
 K3-  GPIO4  
