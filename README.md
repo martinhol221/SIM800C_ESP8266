@@ -143,47 +143,13 @@ MQTT broker
 
 https://www.cloudmqtt.com
 
-https://mqtt.4api.ru
+https://clusterfly.ru
 
-https://myqtthub.com
+https://wqtt.ru
 
-http://flyhub.org
-
-**********************************
-
-**Главное окно программы MQTT Dash** 
-![](https://github.com/martinhol221/SIM800L_MQTT/raw/master/other/17.jpg)
-
-* [Дашборд для MQTT Dasch](https://raw.githubusercontent.com/martinhol221/SIM800C_ESP8266/master/Daschbord.json) альтернативная
-
-**Настройка приложения к серверу**
-
-![](https://github.com/martinhol221/SIM800L_MQTT/raw/master/other/mqtt-9.jpg)
-
-**Загрузка настроек интерфейса**
-
-Открыть в приложении ***Импорт/экспорт*** (1)
-
-Нажать ***Подписаться и ждать метрики*** (2) 
-
-![](https://github.com/martinhol221/SIM800L_MQTT/blob/master/other/setupMqtt.JPG)
-
-В вебсокете https://api.cloudmqtt.com/console/________/websocket  заполнить  и отправить настройки в телефон
-
-![](https://github.com/martinhol221/SIM800C_ESP8266/raw/master/old/UzAAAgCyMeA-960.jpg)
-
-***Topic***  metrics/exchange
-
-Сcылки на конфиг файлы выше, если не понятно смотрим нудное видео без звука 
-
-[Видео по регистрации на youtube.com](https://www.youtube.com/watch?v=xgZZ417HFFQ)
-
-************************************
+http://mqtt.by
 
 ### Потребление трафика:
-
-
-
 
 Один пакет GPRS данных состоит в среднем из 100 - 110 байт, отправляется устройством каждую минуту, 100 байт х 60 минут х 24 часа х 31 день = около 4.5 MB/мес, однако на практике оператор трафик считают больший, у меня набегает 9.5 Мб в месяц.
 ![](https://github.com/martinhol221/SIM800C_ESP8266/raw/master/old/normal_log.JPG)
