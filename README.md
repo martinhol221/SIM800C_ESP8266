@@ -1,7 +1,7 @@
 * [Скачать актуальную версию прошивки 7.3 ](https://github.com/martinhol221/SIM800C_ESP8266/tree/master/firmware) обязательно перезалить дашборд
 После перепрошивки зайти в меню прошивки через Web-интерфейс и сделать сброс настроек.
 
-![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/old/CkAAAgLhoeA-960.jpg)
+![](https://github.com/martinhol221/SIM800C_ESP8266/blob/master/old/CkAAAgLhoeA-960-0.jpg)
 
 Приложение CarMQTT Control
 
