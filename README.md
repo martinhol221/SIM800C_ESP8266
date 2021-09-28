@@ -126,7 +126,7 @@ http://192.168.4.1/sms?sms_phone=%2B3751234567&sms_text=Trevoga.Datchik1 // от
 ## Выбор MQTT приложения в телефон для управления по GPRS
 
 Для Android
-* [Car MQTT Control (специально написанное)](https://github.com/martinhol221/SIM800C_ESP8266?files=1)
+* [MQTT Strt Engine (специально написанное)](https://play.google.com/store/apps/details?id=appinventor.ai_martinhol2221.CarMqttControl)
 * [MQTT Dash Google Play](https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=ru) рекомендую
 * [IoT MQTT Panel](https://play.google.com/store/apps/details?id=snr.lab.iotmqttpanel.prod)
 * [IoT MQTT Dashboard](https://play.google.com/store/apps/details?id=com.thn.iotmqttdashboard)
