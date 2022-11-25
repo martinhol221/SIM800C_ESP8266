@@ -165,13 +165,13 @@ input[type=text], select {width: 100%; padding: 12px 20px; margin: 8px 0; displa
 
 <input type="button" value="Выполнить" onclick="send_mqtt_tmpl()">
 <input type="button" value="Обновить" onclick="mqtt_send('update')">
-
+Пример заполнения, сохранённые параметры пока не отображаются
 <form>
-  <input type="text" id="mqtt_server" name="mqtt_server" placeholder="srv2.clusterfly.ru">
-  <input type="text" id="mqtt_port" name="mqtt_port" placeholder="9993">
-  <input type="text" id="mqtt_user" name="mqtt_user" placeholder="user_d3135e41">
-  <input type="text" id="mqtt_pass" name="mqtt_pass" placeholder="pass_12345678">
-  <input type="text" id="mqtt_topic" name="mqtt_topic" placeholder="user_d3135e41/c5">
+  <input type="text" id="mqtt_server" name="mqtt_server" placeholder="Сервер: srv2.clusterfly.ru" minlength="4" maxlength="25" pattern="^[a-zA-Z\\.0-9]+$" title="Адрес сервера">
+  <input type="text" id="mqtt_port" name="mqtt_port" placeholder="Порт (SSL вкл.) wss: 9994" minlength="4" maxlength="6" pattern="[0-9]{0,10}" title="Порт (SSL вкл.) wss" >
+  <input type="text" id="mqtt_user" name="mqtt_user" placeholder="Пользователь: user_12345678" minlength="6" maxlength="20" pattern="^[a-zA-Z\\.0-9]+$" title="Логин только латиницей" >
+  <input type="text" id="mqtt_pass" name="mqtt_pass" placeholder="Прароль: pass_87654321" minlength="6" maxlength="20" pattern="^[a-zA-Z\\.0-9]+$" title="Пароль только латиницей">
+  <input type="text" id="mqtt_topic" name="mqtt_topic" placeholder="Префикс топика: user_12345678/c5" minlength="4" maxlength="25" pattern="^[a-zA-Z\\.0-9]+$" title="Префикс топика только латиницей">
 </form>
 <input type="button" value="Сохранить натсройки сервера" onclick="mqtt_save()">
 
