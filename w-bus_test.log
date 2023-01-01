@@ -7,7 +7,8 @@
 24 03 21 FF F9
 24 03 21 FF F9 
 24 03 21 FF F9 
-         FF - max min
+            F9 = 24 xor 03 xor 21 xor FF
+         FF = max min
 
 2-telestart, 4- webasto
 
@@ -17,7 +18,8 @@ ON KEY 10 min
 24 03 21 0A 0C 
 24 03 21 0A 0C 
 24 03 21 0A 0C 
-         0A - 10 min
+            0C = 24 xor 03 xor 21 xor 0A
+         0A = 10 min
          
 ON KEY 20 min
 24 03 21 14 12 
@@ -25,7 +27,8 @@ ON KEY 20 min
 24 03 21 14 12 
 24 03 21 14 12 
 24 03 21 14 12 
-         14 - 30 min
+            12 = 24 xor 03 xor 21 xor 14
+         14 = 30 min
          
 ON KEY 30 min
 24 03 21 1E 18 
@@ -33,15 +36,27 @@ ON KEY 30 min
 24 03 21 1E 18 
 24 03 21 1E 18 
 24 03 21 1E 18 
-         1E - 30 min
+            18 = 24 xor 03 xor 21 xor 1E
+         1E = 30 min
 
+
+maintaining work 
+
+24 04 44 21 00 45
+               45 = 24 xor 04 xor 44 xor 21 xor 00
+
+
+
+         
 OFF KEY
 24 02 10 36 
 24 02 10 36 
 24 02 10 36 
 24 02 10 36 
 24 02 10 36 
+         36 = 24 xor 03 xor 10
       10 - comand OFF
+
 
 
 2-telestart, 6- temp sensor
@@ -51,6 +66,7 @@ OFF KEY
 26 03 50 15 60 - > - 62 04 D0 15 99 3A temp reqest 36 grad C
 26 03 50 15 60 - > - 62 04 D0 15 94 37 temp reqest 34 grad C
 26 03 50 15 60 - > - 62 04 D0 15 92 31 temp reqest 33 grad C
+            60 = 26 xor 03 xor 50 xor 15
 
    03 byte              04 byte
 
