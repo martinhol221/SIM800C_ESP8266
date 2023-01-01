@@ -1,5 +1,62 @@
 2400 8 EVEN 1 bit
 
 
-only telestart + temp sensor
-24 03 21 FF F9 24 03 21 FF F9 24 03 21 FF F9 24 03 21 FF F9 24 03 21 FF F9 
++12V - pin 4 telestart T100
+24 03 21 FF F9 
+24 03 21 FF F9 
+24 03 21 FF F9
+24 03 21 FF F9 
+24 03 21 FF F9 
+         FF - max min
+
+2-telestart, 4- webasto
+
+ON KEY 10 min
+24 03 21 0A 0C 
+24 03 21 0A 0C 
+24 03 21 0A 0C 
+24 03 21 0A 0C 
+24 03 21 0A 0C 
+         0A - 10 min
+         
+ON KEY 20 min
+24 03 21 14 12 
+24 03 21 14 12 
+24 03 21 14 12 
+24 03 21 14 12 
+24 03 21 14 12 
+         14 - 30 min
+         
+ON KEY 30 min
+24 03 21 1E 18 
+24 03 21 1E 18 
+24 03 21 1E 18 
+24 03 21 1E 18 
+24 03 21 1E 18 
+         1E - 30 min
+
+OFF KEY
+24 02 10 36 
+24 02 10 36 
+24 02 10 36 
+24 02 10 36 
+24 02 10 36 
+      10 - comand OFF
+
+
+2-telestart, 6- temp sensor
+
+26 03 50 15 60 - > - 62 04 D0 15 9E 3D temp reqest 39 grad C
+26 03 50 15 60 - > - 62 04 D0 15 9C 3F temp reqest 38 grad C
+26 03 50 15 60 - > - 62 04 D0 15 99 3A temp reqest 36 grad C
+26 03 50 15 60 - > - 62 04 D0 15 94 37 temp reqest 34 grad C
+26 03 50 15 60 - > - 62 04 D0 15 92 31 temp reqest 33 grad C
+
+   03 byte              04 byte
+
+
+
+
+
+
+
