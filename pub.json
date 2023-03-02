@@ -9,16 +9,20 @@
   1,      // state IN1
   0       // state IN2
   ],
+  
  "temp":[
   14.81,  // temp ds18b20 №1
   14.50,  // temp ds18b20 №2
   14.13   // temp ds18b20 №3
   ],
+  
  "time":[
   45,     // timer
   3455,   // uptime
   4       // count
-  ],"control":[
+  ],
+
+"control":[
   1,      // interrupt IN1
   0,      // interrupt IN2
   1,      // interrupt GPIO2
